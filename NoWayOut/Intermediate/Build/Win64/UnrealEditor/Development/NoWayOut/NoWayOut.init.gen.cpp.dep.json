@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayout.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\nowayouteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\development\\nowayout\\definitions.nowayout.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\james\\documents\\unreal projects\\nowayout\\source\\nowayout\\nowayoutgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\x64\\nowayouteditor\\development\\unrealed\\sharedpch.unrealed.cpp17.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nowayout\\definitions.nowayout.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\source\\nowayout\\nowayoutgamemode.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayoutgamemode.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\source\\nowayout\\nowayoutplayercontroller.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayoutplayercontroller.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\source\\nowayout\\nowayoutcharacter.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayoutcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

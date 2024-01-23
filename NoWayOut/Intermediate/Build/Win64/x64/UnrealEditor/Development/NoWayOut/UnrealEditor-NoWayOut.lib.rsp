@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NoWayOut.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\NoWayOutEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp17.InclOrderUnreal5_1.h.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\BP_PlayerCharacter.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOut.init.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutCharacter.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutGameMode.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutPlayerController.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\PlayerCharacter.gen.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\BP_PlayerCharacter.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOut.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutCharacter.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutGameMode.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\NoWayOutPlayerController.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\PlayerCharacter.cpp.obj"
+"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\Default.rc2.res"
+/OUT:"C:\Users\James\Documents\Unreal Projects\NoWayOut\Intermediate\Build\Win64\x64\UnrealEditor\Development\NoWayOut\UnrealEditor-NoWayOut.lib"

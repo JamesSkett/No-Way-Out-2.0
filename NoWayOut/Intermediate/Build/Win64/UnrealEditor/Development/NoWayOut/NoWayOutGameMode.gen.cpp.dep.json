@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayoutgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\nowayouteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\development\\nowayout\\definitions.nowayout.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\source\\nowayout\\nowayoutgamemode.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\james\\documents\\unreal projects\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayoutgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
