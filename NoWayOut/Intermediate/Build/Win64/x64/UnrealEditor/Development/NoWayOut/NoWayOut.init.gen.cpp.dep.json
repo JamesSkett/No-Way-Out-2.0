@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\james\\documents\\projects\\unreal\\no-way-out-2.0\\nowayout\\intermediate\\build\\win64\\unrealeditor\\inc\\nowayout\\uht\\nowayout.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\james\\documents\\projects\\unreal\\no-way-out-2.0\\nowayout\\intermediate\\build\\win64\\x64\\nowayouteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\james\\documents\\projects\\unreal\\no-way-out-2.0\\nowayout\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nowayout\\definitions.nowayout.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

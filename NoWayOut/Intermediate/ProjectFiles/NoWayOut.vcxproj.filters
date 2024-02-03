@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NoWayOut.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NoWayOut.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NoWayOutEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NoWayOut">
+      <UniqueIdentifier>{D2403D6D-D3DD-3B08-BFB3-E4E18EB6C44A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NoWayOut\NoWayOut.Build.cs">
+      <Filter>Source\NoWayOut</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NoWayOut\NoWayOut.cpp">
+      <Filter>Source\NoWayOut</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoWayOut\NoWayOut.h">
+      <Filter>Source\NoWayOut</Filter>
+    </ClInclude>
+    <Filter Include="Source\NoWayOut\Player">
+      <UniqueIdentifier>{8ACD94F1-49DD-3073-830A-66F5AD06AC89}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NoWayOut\Player\InputCharacter.cpp">
+      <Filter>Source\NoWayOut\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoWayOut\Player\InputCharacter.h">
+      <Filter>Source\NoWayOut\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoWayOut\Player\NWO_Projectile.cpp">
+      <Filter>Source\NoWayOut\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoWayOut\Player\NWO_Projectile.h">
+      <Filter>Source\NoWayOut\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\NoWayOut\TP_ThirdPerson">
+      <UniqueIdentifier>{F2E4A2B5-69D2-3FC4-A986-69985BA3647A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NoWayOut\TP_ThirdPerson\TP_ThirdPerson.h">
+      <Filter>Source\NoWayOut\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoWayOut\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\NoWayOut\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoWayOut\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
+      <Filter>Source\NoWayOut\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoWayOut\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\NoWayOut\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoWayOut\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
+      <Filter>Source\NoWayOut\TP_ThirdPerson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

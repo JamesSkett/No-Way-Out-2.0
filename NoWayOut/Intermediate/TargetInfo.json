@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NoWayOut",
+			"Path": "..\\Source\\NoWayOut.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NoWayOutEditor",
+			"Path": "..\\Source\\NoWayOutEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\James\\Documents\\Projects\\Unreal\\No-Way-Out-2.0\\NoWayOut\\Source\\NoWayOut\\NoWayOut.Build.cs",
+		"C:\\Users\\James\\Documents\\Projects\\Unreal\\No-Way-Out-2.0\\NoWayOut\\Source\\NoWayOut.Target.cs",
+		"C:\\Users\\James\\Documents\\Projects\\Unreal\\No-Way-Out-2.0\\NoWayOut\\Source\\NoWayOutEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
