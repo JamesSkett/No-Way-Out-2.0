@@ -9,6 +9,7 @@
 #include <GameFramework/SpringArmComponent.h>
 #include <GameFramework/CharacterMovementComponent.h>
 #include "Components/CapsuleComponent.h"
+#include "Components/ArrowComponent.h"
 #include "NoWayOut/Player/NWO_Projectile.h"
 
 // Sets default values
@@ -47,6 +48,7 @@ AInputCharacter::AInputCharacter()
 	m_camera->SetupAttachment(m_springArm, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	m_camera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	m_projectileSpawn = CreateDefaultSubobject<UArrowComponent>("Muzzle Location");
 }
 
 // Called when the game starts or when spawned
@@ -126,7 +128,7 @@ void AInputCharacter::Shoot()
 		FVector forwardDirecton = playerRotation.Vector();
 
 		// Set MuzzleOffset to spawn projectiles slightly in front of the camera.
-		MuzzleOffset.Set(0.0f, 0.0f, 100.0f);
+		MuzzleOffset.Set(30.0f, 30.0f, 100.0f);
 
 		// Transform MuzzleOffset from camera space to world space.
 		FVector MuzzleLocation = GetActorLocation() + MuzzleOffset;

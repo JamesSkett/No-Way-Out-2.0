@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeInputCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
@@ -43,6 +44,10 @@ void EmptyLinkFunctionForGeneratedCodeInputCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_springArm_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_m_springArm;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_projectileSpawn_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_m_projectileSpawn;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MuzzleOffset_MetaData[];
 #endif
@@ -105,6 +110,15 @@ void EmptyLinkFunctionForGeneratedCodeInputCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_springArm = { "m_springArm", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInputCharacter, m_springArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_springArm_MetaData), Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_springArm_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_projectileSpawn_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "InputCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Player/InputCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_projectileSpawn = { "m_projectileSpawn", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AInputCharacter, m_projectileSpawn), Z_Construct_UClass_UArrowComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_projectileSpawn_MetaData), Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_projectileSpawn_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInputCharacter_Statics::NewProp_MuzzleOffset_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -174,6 +188,7 @@ void EmptyLinkFunctionForGeneratedCodeInputCharacter() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInputCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_camera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_springArm,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_projectileSpawn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_MuzzleOffset,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_inputMapping,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInputCharacter_Statics::NewProp_m_moveAction,
@@ -220,9 +235,9 @@ void EmptyLinkFunctionForGeneratedCodeInputCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_James_Documents_Projects_Unreal_No_Way_Out_2_0_NoWayOut_Source_NoWayOut_Player_InputCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AInputCharacter, AInputCharacter::StaticClass, TEXT("AInputCharacter"), &Z_Registration_Info_UClass_AInputCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInputCharacter), 3301677974U) },
+		{ Z_Construct_UClass_AInputCharacter, AInputCharacter::StaticClass, TEXT("AInputCharacter"), &Z_Registration_Info_UClass_AInputCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInputCharacter), 2001313902U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_James_Documents_Projects_Unreal_No_Way_Out_2_0_NoWayOut_Source_NoWayOut_Player_InputCharacter_h_3618569046(TEXT("/Script/NoWayOut"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_James_Documents_Projects_Unreal_No_Way_Out_2_0_NoWayOut_Source_NoWayOut_Player_InputCharacter_h_3622051718(TEXT("/Script/NoWayOut"),
 		Z_CompiledInDeferFile_FID_Users_James_Documents_Projects_Unreal_No_Way_Out_2_0_NoWayOut_Source_NoWayOut_Player_InputCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_James_Documents_Projects_Unreal_No_Way_Out_2_0_NoWayOut_Source_NoWayOut_Player_InputCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

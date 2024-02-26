@@ -18,6 +18,9 @@ class NOWAYOUT_API AInputCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* m_springArm;
 
+	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
+	class UArrowComponent* m_projectileSpawn;
+
 public:
 	// Sets default values for this character's properties
 	AInputCharacter();
